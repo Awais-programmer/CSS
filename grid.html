@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap: 10px; 
+        }
+        .con{
+            display:inline-grid;
+           grid-template-columns: repeat(3,1fr);
+            gap: 5px;
+        }
+       /* {
+         grid b basically display ki he ak property he go hm use krta
+         ha responsiveness ka lia flex or grid dono basically same
+         purpose ka lia use hota ha an ma main diiference ya ha ka grid ka
+         ander zada properties hoti ha or flex ma atne zada properties nahi hoti
+         as code ma hm na grid kia ak property(grid-templ-coloumn:repeat(3,1fr))
+         use ki ha as ma hm as columns or fraction da raha ha ka ap ak row ma 3 
+         column ko 1 fraction ka sth use kro.
+         total screen ka 12 column hota ha .
+         baki as code ma hm na sifferent classes bana ka anha code ma ue kia ha div ka ander
+         gb b hm na box draw krna hota ha hm mostly div ko use krta ha q ka div tamam
+         elements ko ak container ma bnd kr data ha.
+         as ma hm na ak padding ki property use ki ha
+         padding: ya basically element ka ander sapcing ka lia use kia gata ha
+         as ka through hm elements k nadder spacing data ha 
+         por ak property hoti ha margin ki 
+         margin ko hm out of boder spacing dana ka lia use krta.
+         padding inside  boder hoti ha.         
+         }*/
+        .item {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+    <title>Grid Layout Example</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <div class="con">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+</body>
+</html>

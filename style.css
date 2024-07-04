@@ -1,0 +1,33 @@
+body{
+    background-color:dodgerblue;
+    text-align: center;
+    font-size: medium;
+    background-image: url("image/e.jfif");
+    background-repeat: repeat;
+    background-position: cover;
+    background-attachment:fixed;
+}
+/* h1{
+    color: orange;
+    text-align: center;
+} */
+
+.heading2Style {
+    border-style:dashed;
+    border-color: greenyellow;
+}
+
+p{
+    color: gold;
+    border-style: double;
+    border-color:  red;
+    border-radius:  100px;
+    margin-top: 100 px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
