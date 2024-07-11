@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown [pic</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .dropdown-content img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            display: none;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Dropdown Pic</h2>
+    <div class="dropdown">
+        <img src="./Test/Asset2/3.1.PNG" alt="">
+        <div class="dropdown-content">
+            <img src="./Test/Asset2/2.4.PNG" alt="">
+            <div>
+                Welcome boss how are how....
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

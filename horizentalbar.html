@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigatin Bar</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: black;
+            height: 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        li a:hover:not(.active) {
+            background-color: lightgrey;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+
+        .item li {
+            display: inline;
+            padding-right: 45px;
+            justify-content: center;
+
+        }
+
+
+
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        body {
+            margin: 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="item">
+        <div>
+            <li><a href="">Home</a></li>
+            <li><a href="">New</a></li>
+            <li><a href="">Contact</a></li>
+        </div>
+        <li><a class="active" href="">About</a></li>
+    </ul>
+
+</body>
+
+</html>
